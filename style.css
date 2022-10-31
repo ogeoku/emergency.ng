@@ -1,0 +1,52 @@
+body{
+    overflow-x: hidden;
+    background-color: white;
+  }
+  #home{
+    min-height: 600px;
+    width: 100%;
+    background-image: url(images/emergency1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 0px 10px 0px 0px;
+    display: inline-block;
+    padding:200px 200px;
+    
+  }
+  h1{
+    color:antiquewhite;
+  }
+  #search{
+   size: 800px;
+  }
+#banner_search{
+  height: 100px;
+  width:500px;
+  background-color: red;
+  margin-bottom: 0px 10px 0px 0px;
+  padding: 20px;
+  
+}
+.main{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+}
+
+.main:hover{
+border: 1px solid burlywood;
+transition: all 1s;
+text-transform: uppercase;
+color: steelblue;
+transform: translateY(50px);
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.profile-image-pic{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+a{
+  text-decoration: none;
+}
+
